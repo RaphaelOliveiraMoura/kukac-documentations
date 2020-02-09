@@ -75,7 +75,7 @@ Após isso é necessário criar uma relação entre a compra e a transação.
 Por fim basta atualizar a valuation com o **id** da relação purchase criada anteriormente:
 
 ```sql
-update valuations set active_purchase_id = <id_purchase> where id = <id_valuation>;
+  update valuations set active_purchase_id = <id_purchase> where id = <id_valuation>;
 ```
 
 Pronto, relatório liberado :)
